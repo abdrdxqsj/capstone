@@ -1,0 +1,176 @@
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;
+  color: rgb(70, 70, 70);
+
+}
+.container {
+  display: flex;
+
+}
+
+.bold {
+  font-weight: bold;
+}
+.gray {
+  color: gray;
+}
+
+.bg-gray {
+  background-color: lightgray;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size:0.75rem;
+  padding-top: 3rem;
+}
+
+/* COMBAK: header */
+
+header {
+  display: flex;
+  align-items: center;
+  height: 4em;
+  padding: 0 1.5em;
+}
+
+header img {
+  height: 3em;
+}
+
+header span {
+  font-size: 1.5em;
+}
+
+.company {
+  flex-grow: 1;
+}
+ul li {
+  display: inline;
+  padding-left: 1rem;
+}
+
+
+/* COMBAK: banner */
+.banner {
+  align-items: center;
+}
+
+.photo {
+  margin: 2rem 1.5rem;
+  width: 60%
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+aside {
+  width: 40%;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.banner aside h3 {
+  padding: 3.5rem 0;
+}
+
+button {
+  width: 80%;
+  height: 3rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgb(80,80,80);
+  border: none;
+}
+
+/* COMBAK: info */
+.section {
+  display: flex;
+  align-items: center;
+
+}
+.gallery {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.photo h2 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.headline p {
+  padding: 0.5rem 0;
+}
+
+/* COMBAK: courses */
+
+.feature h2 {
+  text-align: center;
+  padding: 2rem 0;
+}
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.course {
+  width: 30%;
+  margin: 1rem;
+  background-color: white;
+  overflow: hidden;
+}
+.course-name {
+  margin: 1rem 0 1.5rem 1rem;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.height {
+  padding: 0.5rem 0;
+}
+
+
+/* COMBAK: exhibit */
+
+.exhibit h2 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.exhibit aside {
+  margin: 1rem 0.5rem;
+}
+
+.exhibit .photo p {
+  margin: 0.5rem 0 2rem 0;
+}
+
+/* COMBAK: footer */
+
+footer {
+  padding-left: 1.5rem;
+}
